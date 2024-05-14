@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+h1 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+p {
+    color: whitesmoke;
+    padding: 10px;
+}
+
+#game {
+    border-color: crimson;
+    background-color: grey;
+    border-width: 5px;
+    padding: 90px 20px 90px 20px;
+    border-radius: 20px;
+    border-style: solid;
+    color: whitesmoke;
+}
+
+#controls, #stats {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+#xp {
+color: blue;
+padding: 5px;
+}
+
+#health {
+color: red;
+padding: 5px;
+}
+
+#coin {
+color: goldenrod;
+padding: 5px;
+}
+
+button {
+    cursor: pointer;
+    color: black;
+    background-color: red;
+    background-image: linear-gradient(crimson, orange);
+    border: 3px solid red;
+}

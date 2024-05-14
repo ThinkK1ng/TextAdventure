@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Adventure Forth</title>
+</head>
+<body>
+    <h1>Adventure Forth</h1>
+    <!--game area-->
+    <div id="game">
+        <div id="stats">
+            <!--game stats-->
+            <span class="stat" id="xp">XP: <strong><span id="xpText">0</span></strong></span>
+            <span class="stat" id="health">Health: <strong><span id="healthText">0</span></strong></span>
+            <span class="stat" id="coin">Coin: <strong><span id="coinText">0</span></strong></span>
+        </div>
+        <!--game controls-->
+        <div id="controls">
+            <button id="button1">Go to Store</button>
+            <button id="button2">Go to Forest</button>
+            <button id="button3">Go to Cave</button>
+        </div>
+        <!--monster stats-->
+        <div id="monsterStats">
+            <span class="stat">Monster Name: <strong><span id="monsterName"></span></strong></span>
+            <span class="stat">Health: <strong><span id="monsterHealth"></span></strong></span>
+        </div>
+        <!--game text-->
+        <p id="text">Welcome to Cavah. Our world is plagued by an evil Demon Lord, Lucius. Only you can save us from peril.</p>
+    </div>
+</body>
+
+<script src="./script.js"></script>
+</html>
